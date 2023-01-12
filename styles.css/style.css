@@ -24,6 +24,7 @@ body{
   border: none;
   cursor: pointer;
   transition: all ease .3s;
+  color: black;
 }
 
 .genesis__button:hover{
