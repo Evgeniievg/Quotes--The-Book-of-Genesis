@@ -1,7 +1,5 @@
 body{
   overflow: hidden;
-   margin: 0;
-   padding: 0;
 }
 
 .genesis{
@@ -15,7 +13,6 @@ body{
   background-size: cover;
   background-position: center;
   height: 100vh;
-
 }
 
 .genesis__button{
@@ -56,6 +53,14 @@ body{
   font-size: 24px;
 }
 
+@media (max-width: 763px) {
+  .genesis{
+    background-position: 35%;
+  }
+  .genesis__text{
+    width: 80%;
+  }
+}
 
 
 
